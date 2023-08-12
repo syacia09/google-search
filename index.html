@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 25pt;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-family: 'Press Start 2P', cursive;
+            letter-spacing: 5px;
+        }
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url("Aesthetic\ 9.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        /* section.content { */
+            /* background-color: salmon; */
+        /* } */
+        form {
+            /* background-color: aliceblue; */
+            min-width: 500px;
+            width: 70%;
+            margin: 0px auto;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        form span.search-icon {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            line-height: 30px;
+            /* background-color: yellow; */
+        }
+        form input.search-entry {
+            width: 90%;
+            height: 30px;
+            border: none;
+            border-radius: 30px;
+            /* background-color: white; */
+            padding: 0 10px;
+        }
+        form input.search-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            /* background-color: palevioletred; */
+        }
+        div.entry-group {
+            display: inline-block;
+            height: 38px;
+            width: calc(40px + 80%);
+            /* background-color: white; */
+            /* border: 1px gray solid; */
+            border-radius: 19px;
+            line-height: 38px;
+        }
+        span.gradasi-teks {
+            background: linear-gradient(to bottom, skyblue, white);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section class="content">
+        <h1><span class="gradasi-teks">Google</span></h1>
+        <form action="https://www.google.com/search">
+            <div class="entry-group">
+                <span class="search-icon">🌠</span>
+                <input class="search-entry" type="text" name="q" id="" placeholder="Find Your Idea">
+            </div>
+            <input class="search-btn" type="submit" value="🔎">
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
